@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStationConsole", "RadioStationConsole.csproj", "{CEAC2F2F-131A-401C-979C-225DBA060D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStation", "RadioStation\RadioStation.csproj", "{98FC86F5-653F-44A5-AF46-AB5A95D8E686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStationWpfUi", "RadioStationWpfUi\RadioStationWpfUi.csproj", "{54BB7BF5-746D-46F3-9ECD-390362E22A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5B2BF687-B63B-4918-95D4-867FDE882C97}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStation.Services", "RadioStation.Services\RadioStation.Services.csproj", "{0E386398-7864-4B4F-9DAE-4FF19F054299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStation.Analyzer", "RadioStation.Analyzer\RadioStation.Analyzer.csproj", "{FA162E8F-0435-46F0-9CE8-5240E9110595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStation.Database", "RadioStation.Database\RadioStation.Database.csproj", "{8078262F-91F2-422F-807F-11E954042EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioStation.Database.Test", "RadioStation.Database.Test\RadioStation.Database.Test.csproj", "{0749C7DD-37C3-41D6-8D94-5E02695C2332}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ainsoflight.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RadioStation\\RadioStation.csproj
+		SccProjectName1 = RadioStation
+		SccLocalPath1 = RadioStation
+		SccProjectUniqueName2 = RadioStationConsole.csproj
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = RadioStationWpfUi\\RadioStationWpfUi.csproj
+		SccProjectName3 = RadioStationWpfUi
+		SccLocalPath3 = RadioStationWpfUi
+		SccProjectUniqueName4 = RadioStation.Services\\RadioStation.Services.csproj
+		SccProjectName4 = RadioStation.Services
+		SccLocalPath4 = RadioStation.Services
+		SccProjectUniqueName5 = RadioStation.Analyzer\\RadioStation.Analyzer.csproj
+		SccProjectName5 = RadioStation.Analyzer
+		SccLocalPath5 = RadioStation.Analyzer
+		SccProjectUniqueName6 = RadioStation.Database\\RadioStation.Database.csproj
+		SccProjectName6 = RadioStation.Database
+		SccLocalPath6 = RadioStation.Database
+		SccProjectUniqueName7 = RadioStation.Database.Test\\RadioStation.Database.Test.csproj
+		SccProjectName7 = RadioStation.Database.Test
+		SccLocalPath7 = RadioStation.Database.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEAC2F2F-131A-401C-979C-225DBA060D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAC2F2F-131A-401C-979C-225DBA060D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAC2F2F-131A-401C-979C-225DBA060D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAC2F2F-131A-401C-979C-225DBA060D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FC86F5-653F-44A5-AF46-AB5A95D8E686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FC86F5-653F-44A5-AF46-AB5A95D8E686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FC86F5-653F-44A5-AF46-AB5A95D8E686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FC86F5-653F-44A5-AF46-AB5A95D8E686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BB7BF5-746D-46F3-9ECD-390362E22A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BB7BF5-746D-46F3-9ECD-390362E22A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BB7BF5-746D-46F3-9ECD-390362E22A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BB7BF5-746D-46F3-9ECD-390362E22A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E386398-7864-4B4F-9DAE-4FF19F054299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E386398-7864-4B4F-9DAE-4FF19F054299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E386398-7864-4B4F-9DAE-4FF19F054299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E386398-7864-4B4F-9DAE-4FF19F054299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA162E8F-0435-46F0-9CE8-5240E9110595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA162E8F-0435-46F0-9CE8-5240E9110595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA162E8F-0435-46F0-9CE8-5240E9110595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA162E8F-0435-46F0-9CE8-5240E9110595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8078262F-91F2-422F-807F-11E954042EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8078262F-91F2-422F-807F-11E954042EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8078262F-91F2-422F-807F-11E954042EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8078262F-91F2-422F-807F-11E954042EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0749C7DD-37C3-41D6-8D94-5E02695C2332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0749C7DD-37C3-41D6-8D94-5E02695C2332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0749C7DD-37C3-41D6-8D94-5E02695C2332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0749C7DD-37C3-41D6-8D94-5E02695C2332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
